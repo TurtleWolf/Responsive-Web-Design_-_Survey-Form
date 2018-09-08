@@ -19,8 +19,63 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+<br><!-- <br> for simplified HTML level UI -->
+<h1 id="title"style="margin:4%;">HitchHiker's Train<br>to Andromeda</h1><!-- Write your comments here -->
+<div id="form-container"style="margin-left:7%; width: 50%; border: thick double #32a1ce; padding: 7%; " >
+  <p id="description">
+    be sure to get a receipt for<br>any body mass left on planetary surface
+  </p>
+  <form id="survey-form" method="GET" action="https://TurtleWolfe.com">
+        <label id="name-label">origin: </label>
+        <br><!-- <br> for simplified HTML level UI -->
+        <input autofocus type="text" id="name" placeholder="origin" required>
+        <br><!-- <br> for simplified HTML level UI -->
+        <label id="email-label">galactic comms: </label>
+        <br><!-- <br> for simplified HTML level UI -->
+        <input type="email" id="email" placeholder="galactic comms id" required>
+        <br><!-- <br> for simplified HTML level UI -->
+        <label id="number-label">light years: </label>
+        <br><!-- <br> for simplified HTML level UI -->    
+        <input type="number" id="number" min="1" max="45000" placeholder="light years">
+        <br><!-- <br> for simplified HTML level UI -->
+        <br><!-- <br> for simplified HTML level UI -->
+        <label >force sensitive?</label>
+        <br><!-- <br> for simplified HTML level UI -->
+      <select id="dropdown" name="currentPos" class="dropdown">
+        <option disabled value>can't pick you're nose</option>
+        <option  value="padawan">padawan</option>
+        <option value="knight">knight</option>
+       <option value="master">master</option>
+      </select>
+        <br><!-- <br> for simplified HTML level UI -->
+        <ul style="list-style: none;">
+      <li><label>Andromeda<input name="radio-buttons" value="1"  type="radio"></label></li>
+      <li><label>BarnYard Star<input name="radio-buttons" value="2"  type="radio"></label></li>
+      <li><label>Milly Ways<input name="radio-buttons" value="3"  type="radio"></label></li>
+        </ul>
+      <label>prefered meal: </label>
+        <br><!-- <br> for simplified HTML level UI -->
+        <select id="most-like" class="dropdown">
+      <option disabled selected value> choice not quaranteed </option>
+      <option value="Fish">Fish</option>
+      <option value="Chicken">Chicken</option>
+      <option value="Beef">Beef</option>
+      <option value="Human">Human</option>
+      </select>
+        <br><!-- <br> for simplified HTML level UI -->
+        <br><!-- <br> for simplified HTML level UI -->
+      <label>Anything to claim @ customs<br>(mark any as applicable): </label>
+        <ul id="preferences" style="list-style: none;">
+         <li class="checkbox"><input name="prefer" value="1" type="checkbox" class="userRatings">animal</li>
+         <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">plant</li>
+        </ul><!-- Write your comments here -->
+      <label>survey says</label>
+      <br><!-- <br> for simplified HTML level UI -->
+<textarea id="comments" style="height:45px;resize:vertical;" placeholder="-Write comments here-"></textarea>
+      <br><!-- <br> for simplified HTML level UI -->
+      <button id="submit" type="submit">Transit in Altarean Pennies</button>
+  </form><!-- id="survey-form" from line 7 -->
+</div><!-- id="form-outer" on line 3-->
 
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
