@@ -2,6 +2,7 @@
 
 
 [I've tried to highlight the tags required to pass the automated testing](https://turtlewolf.github.io/Responsive-Web-Design_-_Survey-Form/)  
+except that first one.. you don't really need to start with a break tag
 
 ![I've tried to highlight the tags required to pass the automated testing](https://github.com/TurtleWolf/Responsive-Web-Design_-_Survey-Form/blob/master/CaptureSurveyFORM.PNG)
 
